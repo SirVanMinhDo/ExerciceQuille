@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PleinEcran
+  m_Name: FullScreenShaderGraph
   m_Shader: {fileID: -6465566751694194690, guid: f1c9d316293e88142aca3a44953c36e3,
     type: 3}
   m_Parent: {fileID: 0}
@@ -24,6 +24,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -37,6 +41,23 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
-    m_Colors: []
+    m_Floats:
+    - _FullScreenSpace: 0.7
+    - _FullscreenIntensity: 1
+    - _Fullscreen_AlphaBlendOperation: 0
+    - _Fullscreen_BlendMode: 4
+    - _Fullscreen_ColorBlendOperation: 0
+    - _Fullscreen_DepthWrite: 0
+    - _Fullscreen_DstAlphaBlend: 10
+    - _Fullscreen_DstColorBlend: 0
+    - _Fullscreen_SrcAlphaBlend: 1
+    - _Fullscreen_SrcColorBlend: 2
+    - _VignetteIntensity: 0
+    - _VignetteRadius: 0.621
+    - _VoronoiScale: 6
+    - _VoronoiSpeed: 1
+    - _VoronoidPower: 1.09
+    m_Colors:
+    - _Color: {r: 0, g: 2.1604173, b: 3.9999995, a: 1}
+    - _ColorFullSreen: {r: 0.45882356, g: 1, b: 0.737255, a: 1}
   m_BuildTextureStacks: []
