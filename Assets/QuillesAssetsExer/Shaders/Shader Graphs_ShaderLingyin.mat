@@ -51,7 +51,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _BottomLine: 0.589
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors: []
+    - _TopLine: 0.713
+    - _metallic: 0.703
+    - _smoothness: 0.297
+    m_Colors:
+    - _ColorBase: {r: 0.85198116, g: 4.78613, b: 4.053697, a: 1}
+    - _ColorBottom: {r: 1.2376785, g: 0, b: 0.5440345, a: 0}
+    - _ColorTop: {r: 1.5356976, g: 0.27225134, b: 3.9999998, a: 0}
   m_BuildTextureStacks: []
